@@ -4,9 +4,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 # from torch import einsum
 # from einops import rearrange, repeat
-from modelsnet.ops.manifold_layers import GeodesicLayer, MobiusLayer, LogZero, ExpZero, GyroplaneConvLayer
-from modelsnet.manifolds import PoincareBall, Euclidean
-import modelsnet.ops.nn as hypnn
+from models.ops.manifold_layers import GeodesicLayer, MobiusLayer, LogZero, ExpZero, GyroplaneConvLayer
+from models.manifolds import PoincareBall, Euclidean
+import models.ops.nn as hypnn
 import random
 from pointnet2_ops import pointnet2_utils
 
